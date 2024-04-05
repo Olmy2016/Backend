@@ -45,7 +45,7 @@ pipeline {
                 sh 'echo sonar'
             }
         }
-        stage('Build Frontend'){
+        stage('Build Backend'){
             steps{
                 script{
                     docker.withRegistry(dockerRegistry,registryCredentials) {
