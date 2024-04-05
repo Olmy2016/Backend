@@ -1,7 +1,7 @@
-def imageName = "192.168.44.44:8082/panda/frontend"
+def imageName = "olmy2016/backend"
 def dockerTag = ""
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def dockerRegistry=""
+def registryCredentials="dockerhub"
 pipeline {
     agent { 
         label 'agent' 
